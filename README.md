@@ -4,6 +4,10 @@
 
 Se [HTTP-requests.http](HTTP-requests.http).
 
-MyEventSyncListener kommer få alla events, oavsett om transaktionen lyckas eller ej.
+### Lyssnare
 
-MyEventAsyncListener kommer endast få event för endpointen `commit`. Detta pga att `rollback` rullar tillbaka transaktionen och `none` inte ens har någon transaktion. 
+#### MyEventSyncListener
+Kommer få alla events, oavsett om transaktionen lyckas eller ej.
+
+#### MyEventAsyncListener
+Kommer endast få event för endpointen `commit`. Detta pga att `rollback` rullar tillbaka transaktionen och `none` inte ens har någon transaktion. 
