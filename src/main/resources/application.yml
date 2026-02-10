@@ -1,0 +1,3 @@
+spring:
+  application.name: AsyncEventAfterTransaction
+  # docker.compose.lifecycle-management: start_only

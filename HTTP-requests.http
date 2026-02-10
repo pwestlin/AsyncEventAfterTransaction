@@ -1,0 +1,8 @@
+### commit
+GET http://localhost:8080/commit
+
+### rollback
+GET http://localhost:8080/rollback
+
+### none
+GET http://localhost:8080/none
