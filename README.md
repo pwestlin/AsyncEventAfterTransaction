@@ -1,13 +1,13 @@
-## Testar Spring Boot application events med och utan @Async och transaktioner.
+# Spring Boot application events med och utan @Async och transaktioner.
 
-### Endpoints
+## Endpoints
 
 Se [HTTP-requests.http](HTTP-requests.http).
 
-### Lyssnare
+## Lyssnare
 
-#### MyEventSyncListener
+### MyEventSyncListener
 Kommer få alla events, oavsett om transaktionen lyckas eller ej.
 
-#### MyEventAsyncListener
+### MyEventAsyncListener
 Kommer endast få event för endpointen `commit`. Detta pga att `rollback` rullar tillbaka transaktionen och `none` inte ens har någon transaktion. 
