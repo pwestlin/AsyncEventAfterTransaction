@@ -1,4 +1,4 @@
-# Spring Boot application events med och utan @Async och transaktioner.
+# Spring Boot application events med och utan @Async och transaktioner
 
 ## Endpoints
 
